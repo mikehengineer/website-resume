@@ -1,0 +1,80 @@
+#experiencemain{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+#experiencegrid{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #ccd6f6;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(10, 10%);
+    grid-template-columns: repeat(10, 10%);
+}
+
+#experienceheader{
+    font-size: 40px;
+    margin-bottom: 0rem;
+}
+
+.experiencecompany{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.experiencedate{
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+.experiencebody{
+    color: #a8b2d1;
+    margin-top: -.5em;
+    line-height: 0;
+    font-size: 18px;
+}
+
+.experiencebody > ul{
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.experiencebody ul li::before{
+    content: "\2022";
+    margin-left: -1em;
+    margin-right: 1em;
+    width: 2em;
+    color:#64ffda;
+}
+
+#experiencesection{
+    grid-area: 2/3/9/11;
+    display:flex;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.companyname{
+    color: #64ffda;
+}
+
+#experiencewrappertop{
+    flex: 0 1 5%;
+}
+
+#experienceheader{
+    line-height: 0;
+}
+
+#experiencewrapperbottom{
+    flex: 1 1 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
