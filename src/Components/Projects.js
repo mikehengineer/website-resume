@@ -10,8 +10,8 @@ function Projects() {
           </div>
           <div id="projectswrapperbottom">
                 <div class="projectscell">              
-                  <div class="projectstitle">Async Mail App </div>
-                  <div class="projectsdate">Current Project</div>
+                  <div class="projectstitle">Async Mail App (2020)</div>
+                  <div class="projectsdate"><a href="https://github.com/mikehengineer/AsyncMailApp">Github: Async Mail App</a></div>
                     <div class="projectsbody">
                       <ul>
                             <li>Written in C# (.NET Framework)</li>
@@ -20,9 +20,19 @@ function Projects() {
                       </ul>
                     </div>
                 </div>
+                <div class="projectscell">              
+                  <div class="projectstitle">Website Resume (2020)</div>
+                  <div class="projectsdate"><a href="https://github.com/mikehengineer/website-resume">Github: Website Resume</a></div>
+                    <div class="projectsbody">
+                      <ul>
+                            <li>Written in Javascript (React.js), HTML and CSS.</li>
+                            <li>Uses react hooks to create a single page web app.</li>
+                      </ul>
+                    </div>
+                </div>
                 <div class="projectscell">
-                  <div class="projectstitle">H2Optimize Dashboard Demo</div>
-                    <div class="projectsdate">2018</div>
+                  <div class="projectstitle">H2Optimize Dashboard Demo (2018)</div>
+                    <div class="projectsdate"><a href="https://github.com/mikehengineer/h2odemo">Github: H2O Demo</a></div>
                       <div class="projectsbody">
                         <ul>
                               <li>Written in PHP (Laravel Framework)</li>
@@ -32,8 +42,8 @@ function Projects() {
                       </div>
                   </div>
                 <div class="projectscell">
-                  <div class="projectstitle">TSU Checkers</div>
-                    <div class="projectsdate">2018</div>
+                  <div class="projectstitle">TSU Checkers (2018)</div>
+                    <div class="projectsdate"><a href="https://github.com/mikehengineer/tsuchecker">TSU Checker</a></div>
                       <div class="projectsbody">
                         <ul>
                               <li>Written in PHP (Laravel Framework)</li>
@@ -42,8 +52,8 @@ function Projects() {
                     </div>
                 </div>
                   <div class="projectscell">
-                    <div class="projectstitle">Capstone Project</div>
-                      <div class="projectsdate">2016</div>
+                    <div class="projectstitle">Capstone Project (2016)</div>
+                      <div class="projectsdate"><a href="https://github.com/mikehengineer/Capstone">Capstone</a></div>
                         <div class="projectsbody">
                           <ul>
                                 <li>Proof of concept project mimicking a smart home device.</li>

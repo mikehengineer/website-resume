@@ -18,7 +18,7 @@ function Splash() {
                 </p>
               </div>
               <div id="heroimage">
-                <img src="./MH.png"/>
+                <img src="../public/MH.png" alt="portrait"/>
               </div>
           </div>
       </div>
