@@ -39,7 +39,7 @@ class Mainpage extends React.Component {
                           <a href="https://github.com/mikehengineer"><img src="./githublogosmall.png" /></a>
                     </div>
                     <div id="linkedincontainer">
-                          <a href="https://github.com/mikehengineer"><img src="./linkedinlogosmall.png" /></a>
+                          <a href="https://www.linkedin.com/in/michaelrhouse/"><img src="./linkedinlogosmall.png" /></a>
                     </div> 
                   </div>
                 </div>        
