@@ -10,12 +10,11 @@ function Contact() {
                 </div> 
                 <div id="contactwrapperbottom">
                       <div id="contactrow1">
-                        <div class="contactsubrow" id="h3name"><h4>Name</h4></div>
-                        <div class="contactsubrow" id="namesubrow"><input type="text" id="name" name="firstname" placeholder="" /></div>
+                        <div class="contactsubrow" id="h3name"><a href = "mailto:mikehengineer@gmail.com"><h4>Email</h4></a></div>
                       </div>
                       
                       <div id="contactrow2">
-                        <div class="contactsubrow" id="h3email"><h4>Email</h4></div>
+                        <div class="contactsubrow" id="h3email"><a href = "https://www.linkedin.com/in/michaelrhouse/"><h4>LinkedIn</h4></a><h4>LinkedIn</h4></div>
                         <div class="contactsubrow" id="emailsubrow"><input type="email" id="email" placeholder="" /></div>
                       </div>
                       <div id="contactrow3">

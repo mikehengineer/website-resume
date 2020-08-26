@@ -7,7 +7,7 @@ class Mainpage extends React.Component {
     super(props);
     this.state = {
                   viewName: 'Splash',
-                  nameArray: ["About Me", "Experience", "Projects", "Contact", "Splash"],
+                  nameArray: ["About Me", "Experience", "Projects", "Splash"],
   };
   this.handleButtonClicked = this.handleButtonClicked.bind(this);
   }      
@@ -16,8 +16,8 @@ class Mainpage extends React.Component {
             <div id="mainarea">
                 <div id="backgroundcontainer">
                   <div id="navbar">
-                      <div id="nameholder"><div data-div_id="4" onClick={this.handleButtonClicked}>Michael House</div></div>
-                      {[0, 1, 2, 3].map(divId => (
+                      <div id="nameholder"><div data-div_id="3" onClick={this.handleButtonClicked}>Michael House</div></div>
+                      {[0, 1, 2].map(divId => (
                       <div class="navitem"
                         key={divId}
                         data-div_id={divId}
@@ -32,7 +32,17 @@ class Mainpage extends React.Component {
                   <div id="maincontainer">
                     <PageDisplay viewName = {this.state.viewName} />
                   </div> 
-                </div>           
+                </div>   
+                <div id="leftcontainer">
+                  <div id="contactcontainer">
+                    <div id="githubcontainer">
+                          <a href="https://github.com/mikehengineer"><img src="./githublogosmall.png" /></a>
+                    </div>
+                    <div id="linkedincontainer">
+                          <a href="https://github.com/mikehengineer"><img src="./linkedinlogosmall.png" /></a>
+                    </div> 
+                  </div>
+                </div>        
             </div>
         )
       }
