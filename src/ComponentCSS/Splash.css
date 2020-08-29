@@ -16,7 +16,7 @@
     grid-area: 3/3/9/11;
     display:flex;
     flex-direction: column;
-    font-size: 35px;
+    font-size: 1.365vw;
 }
 
 #herowrappertop{
@@ -49,9 +49,6 @@
 }
 
 #heroimage >img {
-    /* padding-top: 1em; */
     width:50%;
     height:auto;
 }
-
-/* grid-area: 3/3/9/11; */

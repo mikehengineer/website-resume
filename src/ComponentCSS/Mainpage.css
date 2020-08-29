@@ -57,7 +57,7 @@
 #navbar {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: .78vw;
     color: #64ffda;
     flex: 1 1 5%;
     /* background-color: #0a192f; */
@@ -90,7 +90,7 @@
 }
 
 #nameholder > div{
-    font-size: 22px;
+    font-size: .86vw;
     font-weight: 500;
     text-align: center;
     grid-area: 4/1/11/11;

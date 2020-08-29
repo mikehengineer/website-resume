@@ -19,7 +19,7 @@
 
 #aboutwrappertop{
     padding-top: 2rem;
-    font-size: 35px;
+    font-size: 1.365vw;
     line-height: 0;
     flex: 0;
 }
@@ -30,7 +30,7 @@
 
 #aboutwrapperbottom{
     color: #a8b2d1;
-    font-size: 25px;
+    font-size: .98vw;
     flex: 1 1 70%;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@
     padding-right: 9rem;
     color: #ccd6f6;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 1.365vw;
     flex: 1 1 10%;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@
 
 #skillslist{
     padding-right: 9rem;
-    font-size: 25px;
+    font-size: .98vw;
     flex: 1 1 90%;
     display: flex;
     justify-content: space-around;
