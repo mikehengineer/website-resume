@@ -9,31 +9,46 @@ function Projects() {
             <div id="projectsheader"><h4>Projects</h4></div>
           </div>
           <div id="projectswrapperbottom">
-                <div class="projectscell">              
-                  <div class="projectstitle">Async Mail App (2020)</div>
-                  <div class="projectsdate"><a href="https://github.com/mikehengineer/AsyncMailApp">Github: Async Mail App</a></div>
-                    <div class="projectsbody">
-                      <ul>
-                            <li>Written in C# (.NET Framework)</li>
-                            <li>Full CRUD capabilities with a MySQL database attached.</li>
-                            <li>Uses a G-Mail SMTP server to send emails asynchronously.</li>
-                      </ul>
+          <div className="projectscell">
+                  <div className="projectstitle">Loan Applicant App Front-End (2020)</div>
+                    <div className="projectsdate"><a href="https://github.com/mikehengineer/Sync1NGRXFrontEnd">Github: Angular 10/NGRX Front-End</a></div>
+                      <div className="projectsbody">
+                        <ul>
+                              <li>Front-end application written in Angular 10.</li>
+                              <li>NGRX Store for state management.</li>
+                              <li>NGRX Entities for front-end record management.</li>
+                              <li>NGRX Effects to process back-end API database queries.</li>
+                              <li>NGRX Routing to implement a RESTful API.</li>
+                              <li>Features reactive form validation.</li>
+                              <li>Features Angular Materials for the UI template and components (layout, tables, forms, etc).</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="projectscell">              
-                  <div class="projectstitle">Website Resume (2020)</div>
-                  <div class="projectsdate"><a href="https://github.com/mikehengineer/website-resume">Github: Website Resume</a></div>
-                    <div class="projectsbody">
+                <div className="projectscell">
+                  <div className="projectstitle">Loan Applicant App Back-End (2020)</div>
+                    <div className="projectsdate"><a href="https://github.com/mikehengineer/Sync1Demo">Github: .Net Back-End</a></div>
+                      <div className="projectsbody">
+                        <ul>
+                              <li>Written in C# (.Net 3.1 Framework)</li>
+                              <li>Features a CRUD API attached to a MSSQL database.</li>
+                              <li>Entity framework for database management.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="projectscell">              
+                  <div className="projectstitle">Website Resume (2020)</div>
+                  <div className="projectsdate"><a href="https://github.com/mikehengineer/website-resume">Github: Website Resume</a></div>
+                    <div className="projectsbody">
                       <ul>
                             <li>Written in Javascript (React.js), HTML and CSS.</li>
-                            <li>Uses react hooks to create a single page web app.</li>
+                            <li>Uses React hooks to create a single page web app.</li>
                       </ul>
                     </div>
                 </div>
-                <div class="projectscell">
-                  <div class="projectstitle">H2Optimize Dashboard Demo (2018)</div>
-                    <div class="projectsdate"><a href="https://github.com/mikehengineer/h2odemo">Github: H2O Demo</a></div>
-                      <div class="projectsbody">
+                <div className="projectscell">
+                  <div className="projectstitle">H2Optimize Dashboard Demo (2018)</div>
+                    <div className="projectsdate"><a href="https://github.com/mikehengineer/h2odemo">Github: H2O Demo</a></div>
+                      <div className="projectsbody">
                         <ul>
                               <li>Written in PHP (Laravel Framework)</li>
                               <li>MVC design that allows a user to login and view a dashboard displaying the metrics for a water meter.</li>
@@ -41,20 +56,10 @@ function Projects() {
                         </ul>
                       </div>
                   </div>
-                <div class="projectscell">
-                  <div class="projectstitle">TSU Checkers (2018)</div>
-                    <div class="projectsdate"><a href="https://github.com/mikehengineer/tsuchecker">TSU Checker</a></div>
-                      <div class="projectsbody">
-                        <ul>
-                              <li>Written in PHP (Laravel Framework)</li>
-                              <li>MVC design allowed a user to play a board game on the server.</li>
-                        </ul>
-                    </div>
-                </div>
-                  <div class="projectscell">
-                    <div class="projectstitle">Capstone Project (2016)</div>
-                      <div class="projectsdate"><a href="https://github.com/mikehengineer/Capstone">Capstone</a></div>
-                        <div class="projectsbody">
+                  <div className="projectscell">
+                    <div className="projectstitle">Capstone Project (2016)</div>
+                      <div className="projectsdate"><a href="https://github.com/mikehengineer/Capstone">Github: Capstone</a></div>
+                        <div className="projectsbody">
                           <ul>
                                 <li>Proof of concept project mimicking a smart home device.</li>
                                 <li>Hosted on a BeagleBone Black microcomputer (ARM3 processor).</li>
