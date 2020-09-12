@@ -32,15 +32,17 @@ function Aboutme() {
                 </div>
                 <div id="skillslist">
                   <ul>
+                    <li>Angular 10</li>
+                    <li>NGRX</li>
                     <li>Java</li>
                     <li>C# (.Net)</li>
                     <li>Javascript</li>
                     <li>PHP</li>
-                    <li>MySQL</li>
                   </ul>
                   <ul>
                     <li>Node.js</li>
                     <li>React.js</li>
+                    <li>MySQL</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Git</li>
