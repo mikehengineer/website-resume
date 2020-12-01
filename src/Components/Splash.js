@@ -10,7 +10,7 @@ function Splash() {
           </div>
           <div id="herowrapperbottom">
               <div id="herotext">   
-                <p>I am an associate level software engineer and part-time web developer currently looking for work in the
+                <p>I am an associate level software engineer and part-time web developer currently working in the
                 Austin, Tx area.
                 <br />
                 <br />
